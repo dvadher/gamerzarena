@@ -1,158 +1,173 @@
-
 /* font-family: 'Airbnb Cereal App';
 font-family: 'Flexo'; */
 /*================================= comoon css =================================*/
 
 body {
-	font-family: 'Airbnb Cereal App';
+	font-family: "Airbnb Cereal App";
 	touch-action: manipulation;
-	font-size:18px;
-	line-height:32px;
+	font-size: 18px;
+	line-height: 32px;
 	background: #000;
-}
-.container {
-    max-width: 100%;
-    padding: 0px 40px;
-}
-/* custom scroll */
-::-webkit-scrollbar {
+  }
+  .container {
+	max-width: 100%;
+	padding: 0px 40px;
+  }
+  /* custom scroll */
+  ::-webkit-scrollbar {
 	width: 6px;
 	height: 6px;
-}
-::-webkit-scrollbar-track {
+  }
+  ::-webkit-scrollbar-track {
 	box-shadow: inset 0 0 10px #1b1b1b;
 	border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
+  }
+  ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	background: #0078ff;
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
-}
-/* custom scroll */
-body,
-a,
-p,
-button, h1, h2, h3, h5, h6, span {
-	font-family: 'Manrope', sans-serif;
-}
-h1, h2, h3, h4, h5, h6, p{
-	margin-bottom:0;
-}
-p{
+  }
+  /* custom scroll */
+  body,
+  a,
+  p,
+  button,
+  h1,
+  h2,
+  h3,
+  h5,
+  h6,
+  span {
+	font-family: "Manrope", sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+	margin-bottom: 0;
+  }
+  p {
 	font-size: 18px;
 	line-height: 32px;
-	color:#18191F;
-}
-button::-moz-focus-inner {
-	border: 0
-}
-:focus {
+	color: #18191f;
+  }
+  button::-moz-focus-inner {
+	border: 0;
+  }
+  :focus {
 	outline: none;
-}
-::-moz-focus-inner {
-    border: 0;
-}
-button:focus {
+  }
+  ::-moz-focus-inner {
+	border: 0;
+  }
+  button:focus {
 	outline: none;
-}
-a,
-a:hover, button, button:hover, .icon-filter-down {
+  }
+  a,
+  a:hover,
+  button,
+  button:hover,
+  .icon-filter-down {
 	transition: all 0.5s ease 0s !important;
-}
-
-.btn-ty-1{
+  }
+  
+  .btn-ty-1 {
 	font-size: 16px;
-    font-weight: 700;
-    letter-spacing: .89px;
-    text-transform: uppercase;
-    font-family: 'Airbnb Cereal App';
-    background: #0078ff;
-    color: #fff;
-    padding: 11px 45px;
-    width: 100%;
-    white-space: nowrap;
-    border-radius: 5.5px;
+	font-weight: 700;
+	letter-spacing: 0.89px;
+	text-transform: uppercase;
+	font-family: "Airbnb Cereal App";
+	background: #0078ff;
+	color: #fff;
+	padding: 11px 45px;
+	width: 100%;
+	white-space: nowrap;
+	border-radius: 5.5px;
 	text-align: center;
-}
-.btn-join {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 11px 33px;
-}
-.btn-ty-1:hover{
-	opacity: .8;
+  }
+  .btn-join {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 11px 33px;
+  }
+  .btn-ty-1:hover {
+	opacity: 0.8;
 	color: #fff !important;
-}
-.btn-ty-2{
+  }
+  .btn-ty-2 {
 	background-color: #83d748;
-    color: #fff;
-    border-radius: 3px;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 1.58;
-    padding: 6px 14px;
-}
-.btn-clear{
+	color: #fff;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.58;
+	padding: 6px 14px;
+  }
+  .btn-clear {
 	font-size: 15px;
-    letter-spacing: .21px;
-    border-radius: 5px;
-    border: 1.5px solid #bd2e2e;
-    color: #bd2e2e;
-    padding: 12px 21px;
-}
-.btn-clear:hover {
-    background-color: #bd2e2e;
-    color: #fff;
-}
-.btn-plus {
+	letter-spacing: 0.21px;
+	border-radius: 5px;
+	border: 1.5px solid #bd2e2e;
+	color: #bd2e2e;
+	padding: 12px 21px;
+  }
+  .btn-clear:hover {
+	background-color: #bd2e2e;
+	color: #fff;
+  }
+  .btn-plus {
 	background: #0078ff !important;
-    padding: 6px 20px !important;
-    line-height: normal;
-}
-button.btn-more {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    color: #0078ff;
-    border: 1px solid #0078ff;
-    border-radius: 10px;
-    font-family: "AirbnbCereal",sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    background: transparent;
-    line-height: normal;
-    padding: 16px 62px;
-    letter-spacing: .83px;
-    margin-top: 50px;
-}
-.filter-btn {
-    background-color: #252525;
-    width: fit-content;
-	width: -moz-fit-content;
-    padding: 4px 19px;
-}
-.text-blue, .footer-widget-menu ul li a:hover{
+	padding: 6px 20px !important;
+	line-height: normal;
+  }
+  button.btn-more {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
 	color: #0078ff;
-}
-.bg-blue{
+	border: 1px solid #0078ff;
+	border-radius: 10px;
+	font-family: "AirbnbCereal", sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	background: transparent;
+	line-height: normal;
+	padding: 16px 62px;
+	letter-spacing: 0.83px;
+	margin-top: 50px;
+  }
+  .filter-btn {
+	background-color: #252525;
+	width: fit-content;
+	width: -moz-fit-content;
+	padding: 4px 19px;
+  }
+  .text-blue,
+  .footer-widget-menu ul li a:hover {
+	color: #0078ff;
+  }
+  .bg-blue {
 	background-color: #0078ff;
-}
-.check-container {
+  }
+  .check-container {
 	display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 15px;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 15px;
 	line-height: 20px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    font-family: 'Airbnb Cereal App';
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: "Airbnb Cereal App";
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
   }
   
   /* Hide the browser's default checkbox */
@@ -167,19 +182,19 @@ button.btn-more {
   /* Create a custom checkbox */
   .checkmark {
 	position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #545566;
-    border-radius: 5px;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #545566;
+	border-radius: 5px;
 	transition: all 0.5s ease 0s !important;
   }
-
+  
   /* When the checkbox is checked, add a blue background */
   .check-container input:checked ~ .checkmark {
 	background-color: #fff;
-    border: 2px solid #0078ff !important;
+	border: 2px solid #0078ff !important;
 	transition: all 0.5s ease 0s !important;
   }
   
@@ -198,192 +213,195 @@ button.btn-more {
   /* Style the checkmark/indicator */
   .check-container .checkmark:after {
 	left: 6px;
-    top: 3px;
-    width: 5px;
-    height: 9px;
-    border: solid #2196F3;
-    border-width: 0 2px 2px 0;
-    -webkit-transform: rotate(
-45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(
-45deg);
+	top: 3px;
+	width: 5px;
+	height: 9px;
+	border: solid #2196f3;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
   }
   ul.check-list li {
-    list-style: none;
-}
-.filter-in-heading {
-    margin-bottom: 10px;
-}
-/*================================= 4 Global Styles (#glob) =================================*/
-h1, h1 span {
+	list-style: none;
+  }
+  .filter-in-heading {
+	margin-bottom: 10px;
+  }
+  /*================================= 4 Global Styles (#glob) =================================*/
+  h1,
+  h1 span {
 	font-size: 53px;
-    font-weight: 800;
-	letter-spacing: .76px;
-    text-align: center;
+	font-weight: 800;
+	letter-spacing: 0.76px;
+	text-align: center;
 	margin-bottom: 40px;
-    color: #0078ff;
-	font-family: 'Flexo';
-}
-h2 {
-    font-size: 35px;
-    font-weight: 500;
-	letter-spacing: .57px;
+	color: #0078ff;
+	font-family: "Flexo";
+  }
+  h2 {
+	font-size: 35px;
+	font-weight: 500;
+	letter-spacing: 0.57px;
 	color: #fff;
-}
-h3 {
+  }
+  h3 {
 	font-size: 16px;
 	font-weight: 500;
-	letter-spacing: .57px;
-    color: #d8d8d8;
-}
-h4{
+	letter-spacing: 0.57px;
+	color: #d8d8d8;
+  }
+  h4 {
 	font-size: 19px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: .3px;
-	color:#fff;
-}
-h5 {
-    font-size: 15px;
-    line-height: 28px;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.3px;
+	color: #fff;
+  }
+  h5 {
+	font-size: 15px;
+	line-height: 28px;
 	font-weight: 700;
-	font-family: "AirbnbCereal",sans-serif!important;
-	letter-spacing: .19px;
-	color:#fff;
+	font-family: "AirbnbCereal", sans-serif !important;
+	letter-spacing: 0.19px;
+	color: #fff;
 	margin-left: 10px;
-}
-h6{
+  }
+  h6 {
 	font-size: 20px;
 	font-weight: 500;
-	letter-spacing: .37px;
-	color:#fff;
-}
-button {
-    cursor: pointer;
-}
-.navbar-light .navbar-nav-link{
-	font-size:16px !important;
-}
-.font-small, .control-btn i:before, .normal-content-icon i:before, .copyright-text{
-	font-size:14px !important;
-	line-height:24px;
-}
-.font-16{
-	font-size:16px;
-	line-height:26px;
-}
-/*================================= comoon css end =================================*/
-.sticky .fixed-top {
+	letter-spacing: 0.37px;
+	color: #fff;
+  }
+  button {
+	cursor: pointer;
+  }
+  .navbar-light .navbar-nav-link {
+	font-size: 16px !important;
+  }
+  .font-small,
+  .control-btn i:before,
+  .normal-content-icon i:before,
+  .copyright-text {
+	font-size: 14px !important;
+	line-height: 24px;
+  }
+  .font-16 {
+	font-size: 16px;
+	line-height: 26px;
+  }
+  /*================================= comoon css end =================================*/
+  .sticky .fixed-top {
 	background: #111;
-    box-shadow: -1px 4px 5px 1px rgb(20 14 20 / 11%);
-}
-button.navbar-toggler i:before {
+	box-shadow: -1px 4px 5px 1px rgb(20 14 20 / 11%);
+  }
+  button.navbar-toggler i:before {
 	margin-left: 0px !important;
 	font-size: 18px !important;
-}
-button.navbar-toggler i.flaticon-close-1:before{font-size: 15px !important;}
-button.navbar-toggler i {
+  }
+  button.navbar-toggler i.flaticon-close-1:before {
+	font-size: 15px !important;
+  }
+  button.navbar-toggler i {
 	background: #0078ff;
-    color: #fff;
-    border-radius: 6px;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: 15px;
-    top: 20px;
-}
-button.navbar-toggler i.flaticon-close-2:before {
+	color: #fff;
+	border-radius: 6px;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 15px;
+	top: 20px;
+  }
+  button.navbar-toggler i.flaticon-close-2:before {
 	font-size: 12px !important;
-}
-.sticky{
+  }
+  .sticky {
 	position: fixed;
 	width: 100%;
 	top: 0;
 	z-index: 999;
 	-webkit-box-shadow: -1px 3px 5px 1px rgba(20, 14, 20, 0.11);
 	-moz-box-shadow: -1px 3px 5px 1px rgba(20, 14, 20, 0.11);
-    box-shadow: -1px 3px 5px 1px rgba(20, 14, 20, 0.11);
-}
-.sticky a.navbar-nav-link {
-    transition: color ease-in-out .15s;
-}
-.content-wrapper{
+	box-shadow: -1px 3px 5px 1px rgba(20, 14, 20, 0.11);
+  }
+  .sticky a.navbar-nav-link {
+	transition: color ease-in-out 0.15s;
+  }
+  .content-wrapper {
 	overflow: hidden;
-}
-.page-content{
+  }
+  .page-content {
 	padding-top: 90px;
-}
-.navbar-brand img {
-    width: 180px !important;
-    position: relative;
-    z-index: 999;
-}
-.custom-header a.navbar-nav-link {
+  }
+  .navbar-brand img {
+	width: 180px !important;
+	position: relative;
+	z-index: 999;
+  }
+  .custom-header a.navbar-nav-link {
 	font-size: 16px;
-    font-weight: 500;
-    letter-spacing: .23px;
-    color: #666;
-    font-family: 'Airbnb Cereal App';
-    padding: 0px 20px;
-}
-.navbar-brand {
-    margin: 0;
-    margin-right: 30px;
+	font-weight: 500;
+	letter-spacing: 0.23px;
+	color: #666;
+	font-family: "Airbnb Cereal App";
+	padding: 0px 20px;
+  }
+  .navbar-brand {
+	margin: 0;
+	margin-right: 30px;
 	display: flex;
-    align-items: center;
-}
-.custom-header .main-menuright a {
-    margin-left: 16px;
-}
-.custom-header a.invite-i {
-    margin-right: 15px;
-}
-.custom-header .navbar {
-    padding: 14px 0px;
-}
-/************* section tournaments-top *************/
-
-.tournaments-top{   
-    padding-top: 90px;
+	align-items: center;
+  }
+  .custom-header .main-menuright a {
+	margin-left: 16px;
+  }
+  .custom-header a.invite-i {
+	margin-right: 15px;
+  }
+  .custom-header .navbar {
+	padding: 14px 0px;
+  }
+  /************* section tournaments-top *************/
+  
+  .tournaments-top {
+	padding-top: 90px;
 	background: url(../images/banner-img.jpg) !important;
-}
-.tournamanet-slide-content .owl-item > div {
+  }
+  .tournamanet-slide-content .owl-item > div {
 	cursor: pointer;
 	transition: margin 0.4s ease;
   }
   .tournamanet-slide-content .owl-item.active.center a {
 	transform: scale(1);
-}
-.tournamanet-slide-content a{
-	transform: scale(.8);
-}
-.tournamanet-slide-block {
-    height: 25vw;
+  }
+  .tournamanet-slide-content a {
+	transform: scale(0.8);
+  }
+  .tournamanet-slide-block {
+	height: 25vw;
 	border-radius: 10px;
-    background-size: cover;
+	background-size: cover;
 	display: block;
 	position: relative;
-	
-}
-.tournamanet-slide-content .block-content {
+  }
+  .tournamanet-slide-content .block-content {
 	position: absolute;
 	bottom: 60px;
-    left: 30px;
-}
-.tournamanet-slide-block span.btn-ty-2{
+	left: 30px;
+  }
+  .tournamanet-slide-block span.btn-ty-2 {
 	margin-bottom: 7px !important;
-    display: inline-block;
-}
+	display: inline-block;
+  }
   .tournamanet-slide-content .owl-item.center > div {
 	cursor: auto;
 	margin: 0;
   }
   .tournamanet-slide-content .owl-item:not(.center) > div:hover {
-	opacity: .75;
+	opacity: 0.75;
   }
   .tournamanet-slide-content .owl-item > div {
 	cursor: pointer;
@@ -395,578 +413,585 @@ button.navbar-toggler i.flaticon-close-2:before {
 	margin: 0;
   }
   .tournamanet-slide-content .owl-item:not(.center) > div:hover {
-	opacity: .75;
+	opacity: 0.75;
   }
   .coin-img {
-    width: 45px !important;
-    height: 45px;
-    object-fit: contain;
-}
-.flex-content {
-    display: flex;
-    align-items: center;
-}
-.tournamanet-slide-date img {
-    height: 20px;
-    width: 20px !important;
-}
-.tournamanet-slide-date span {
+	width: 45px !important;
+	height: 45px;
+	object-fit: contain;
+  }
+  .flex-content {
+	display: flex;
+	align-items: center;
+  }
+  .tournamanet-slide-date img {
+	height: 20px;
+	width: 20px !important;
+  }
+  .tournamanet-slide-date span {
 	font-size: 14px;
-    font-weight: 500 !important;
-    font-family: 'Airbnb Cereal App';
-    color: #fff;
-}
-.tournamanet-slide-date .end-date{
-	color: #747474;
-}
-.tournamanet-slide-date{
-	background-color: rgba(0,0,0,.65);
-    width: fit-content;
-	width: -moz-fit-content;
-    padding: 10px 30px;
-    border-radius: 5px;
-}
-.tournamanet-slide-date img {
-    margin: 0px 16px;
-}
-button.owl-prev,button.owl-next{
-	color:transparent !important;
-	background: url(../images/right-arrow.svg) 50%/20px 26px no-repeat !important;
-    background-size: cover;
-    width: 47px;
-} 
-button.owl-prev {
-	transform: rotateY( 
-		180deg);
-		position: absolute;
-		left: 30px;
-}
-.owl-nav {
-    position: absolute;
-    top: 40%;
-    width: 100%;
-}
-button.owl-next {
-    position: absolute;
-    right: 30px;
-}
-/*=================================== filter css ===================================*/
-.filter-slider .tournamanet-slide-block {
-    height: 110px;
-}
-.filter-slider button.owl-prev {
-    left: -50px;
-}
-.filter-slider button.owl-next {
-    right: -50px;
-}
-.filter-slider  .owl-nav{
-	top: 24%;
-}
-.filter-slider {
-	margin-top: -120px;
-}
-.filter-btn span{
-	font-size: 14px;
-    font-weight: 700;
+	font-weight: 500 !important;
+	font-family: "Airbnb Cereal App";
 	color: #fff;
-	text-transform:uppercase;
-}
-.filter-plus {
-    background-color: #0078ff;
-}
-.filter-free, .filter-paid {
-    background-color: #242526;
-}
-.filter-btn {
+  }
+  .tournamanet-slide-date .end-date {
+	color: #747474;
+  }
+  .tournamanet-slide-date {
+	background-color: rgba(0, 0, 0, 0.65);
+	width: fit-content;
+	width: -moz-fit-content;
+	padding: 10px 30px;
+	border-radius: 5px;
+  }
+  .tournamanet-slide-date img {
+	margin: 0px 16px;
+  }
+  button.owl-prev,
+  button.owl-next {
+	color: transparent !important;
+	background: url(../images/right-arrow.svg) 50%/20px 26px no-repeat !important;
+	background-size: cover;
+	width: 47px;
+  }
+  button.owl-prev {
+	transform: rotateY(180deg);
+	position: absolute;
+	left: 30px;
+  }
+  .owl-nav {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+  }
+  button.owl-next {
+	position: absolute;
+	right: 30px;
+  }
+  /*=================================== filter css ===================================*/
+  .filter-slider .tournamanet-slide-block {
+	height: 110px;
+  }
+  .filter-slider button.owl-prev {
+	left: -50px;
+  }
+  .filter-slider button.owl-next {
+	right: -50px;
+  }
+  .filter-slider .owl-nav {
+	top: 24%;
+  }
+  .filter-slider {
+	margin-top: -120px;
+  }
+  .filter-btn span {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+  }
+  .filter-plus {
+	background-color: #0078ff;
+  }
+  .filter-free,
+  .filter-paid {
+	background-color: #242526;
+  }
+  .filter-btn {
 	cursor: pointer;
-    margin-right: 20px;
-    border-radius: 5px;
-    padding: 5px 23px;
+	margin-right: 20px;
+	border-radius: 5px;
+	padding: 5px 23px;
 	transform: unset;
-}
-.filter-group .filter-btn:hover{
+  }
+  .filter-group .filter-btn:hover {
 	transform: scale(1.1);
-}
-.filter-free:hover {
-    background-color: #83d748;
-}
-.filter-free:hover span, .filter-paid:hover span{
+  }
+  .filter-free:hover {
+	background-color: #83d748;
+  }
+  .filter-free:hover span,
+  .filter-paid:hover span {
 	color: #fff !important;
-}
-.filter-paid:hover {
-    background-color: #ff7100;
-}
-.filter-free span {
-    color: #83d748;
-}
-.filter-paid span{
+  }
+  .filter-paid:hover {
+	background-color: #ff7100;
+  }
+  .filter-free span {
+	color: #83d748;
+  }
+  .filter-paid span {
 	color: #ff7100;
-}
-section.filter {
-    margin-top: 30px;
-}
-.filter-center-menu a {
-    font-size: 17px;
-    font-weight: 300;
-    letter-spacing: .24px;
-    text-align: right;
-    color: #666;
-    cursor: pointer;
-    font-family: "AirbnbCereal",sans-serif;
-    margin-right: 20px;
+  }
+  section.filter {
+	margin-top: 30px;
+  }
+  .filter-center-menu a {
+	font-size: 17px;
+	font-weight: 300;
+	letter-spacing: 0.24px;
+	text-align: right;
+	color: #666;
+	cursor: pointer;
+	font-family: "AirbnbCereal", sans-serif;
+	margin-right: 20px;
 	transform: unset;
-}
-.filter-center-menu a:hover, .filter-center-menu a:focus {
-    transform: scale(1.1);
-	color:#fff
-}
-.filter-in-block{
+  }
+  .filter-center-menu a:hover,
+  .filter-center-menu a:focus {
+	transform: scale(1.1);
+	color: #fff;
+  }
+  .filter-in-block {
 	background-color: #1b1b1b;
 	padding: 0 0px;
-    height: 0;
-	display:none;
-}
-section.filter.filter-in .filter-in-block {
-    padding: 40px 0px;
-    height: 100%;
-	display:block;
-}
-.ul-grid {
-    column-count: 2;
-}
-.filter-in-block .flex-content{
+	height: 0;
+	display: none;
+  }
+  section.filter.filter-in .filter-in-block {
+	padding: 40px 0px;
+	height: 100%;
+	display: block;
+  }
+  .ul-grid {
+	column-count: 2;
+  }
+  .filter-in-block .flex-content {
 	justify-content: space-between;
-    align-items: baseline;
-}
-.filter-in-heading.flex-content {
-    align-items: center;
-    justify-content: normal;
-}
-section.filter.filter-in .icon-filter-down{
-	transform: rotate(
-		177deg);
-		transition: all 0.5s ease 0s !important;
-}
-.filter-right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.filter-right .filter-btn {
-    margin-right: 0;
-    margin-left: 50px;
-}
-.filter-group{
+	align-items: baseline;
+  }
+  .filter-in-heading.flex-content {
+	align-items: center;
+	justify-content: normal;
+  }
+  section.filter.filter-in .icon-filter-down {
+	transform: rotate(177deg);
+	transition: all 0.5s ease 0s !important;
+  }
+  .filter-right {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+  }
+  .filter-right .filter-btn {
+	margin-right: 0;
+	margin-left: 50px;
+  }
+  .filter-group {
 	padding: 30px 0px;
-}
-section.tournaments-grid {
-    padding: 30px 0px;
-    background-color: #000;
-    background-image:url(../images/grid-bg.png);
+  }
+  section.tournaments-grid {
+	padding: 30px 0px;
+	background-color: #000;
+	background-image: url(../images/grid-bg.png);
 	background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-.search-container input {
-    background: #121212;
-    border: 1px solid #121212;
-    width: 390px;
-    height: 50px;
-    border-radius: 10px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+  }
+  .search-container input {
+	background: #121212;
+	border: 1px solid #121212;
+	width: 390px;
+	height: 50px;
+	border-radius: 10px;
 	padding-left: 55px;
-    padding-right: 15px;
-	color:#fff;
-	font-family: 'Airbnb Cereal App';
+	padding-right: 15px;
+	color: #fff;
+	font-family: "Airbnb Cereal App";
 	font-weight: 300 !important;
-}
-.search-container  svg.MuiSvgIcon-root {
-    fill: #fff;
-    width: 23px;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
-.search-container  input::-webkit-input-placeholder { /* Edge */
-		font-family: 'Airbnb Cereal App';
-		 color: #666;
-		font-weight: 300 !important;
+  }
+  .search-container svg.MuiSvgIcon-root {
+	fill: #fff;
+	width: 23px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+  }
+  .search-container input::-webkit-input-placeholder {
+	/* Edge */
+	font-family: "Airbnb Cereal App";
+	color: #666;
+	font-weight: 300 !important;
   }
   
-.search-container  input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-		font-family: 'Airbnb Cereal App';
-		 color: #666;
-		font-weight: 300 !important;
+  .search-container input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	font-family: "Airbnb Cereal App";
+	color: #666;
+	font-weight: 300 !important;
   }
   
-.search-container  input::placeholder {
-		font-family: 'Airbnb Cereal App';
-		 color: #666;
-		font-weight: 300 !important;
+  .search-container input::placeholder {
+	font-family: "Airbnb Cereal App";
+	color: #666;
+	font-weight: 300 !important;
   }
   .tournaments-count p {
-    text-align: right;
-    font-size: 15px;
-    letter-spacing: .21px;
-    color: #fff;
-    font-weight: 600;
-}
-.tournaments-col {
+	text-align: right;
+	font-size: 15px;
+	letter-spacing: 0.21px;
+	color: #fff;
+	font-weight: 600;
+  }
+  .tournaments-col {
 	background: #1b1b1b;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 40px;
-}
-.tournaments-grid-content {
-    padding: 25px;
-}
-.tournaments-col .img-block {
-    height: 200px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-	border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+	border-radius: 10px;
 	overflow: hidden;
-    transform: scale(1);
-    transition: all .4s ease-in-out;
-}
-.tournaments-col:hover .img-block {
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.tournaments-grid-row {
-    padding: 60px 0px;
-}
-.tournaments-grid-content .flex-content.tournamanet-slide-date {
-    background: transparent;
-    padding: 0;
-}
-.tournaments-grid-content h6 {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.58;
-    letter-spacing: .2px;
-    color: #747474;
+	margin-bottom: 40px;
+  }
+  .tournaments-grid-content {
+	padding: 25px;
+  }
+  .tournaments-col .img-block {
+	height: 200px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	overflow: hidden;
+	transform: scale(1);
+	transition: all 0.4s ease-in-out;
+  }
+  .tournaments-col:hover .img-block {
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+  .tournaments-grid-row {
+	padding: 60px 0px;
+  }
+  .tournaments-grid-content .flex-content.tournamanet-slide-date {
+	background: transparent;
+	padding: 0;
+  }
+  .tournaments-grid-content h6 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.58;
+	letter-spacing: 0.2px;
+	color: #747474;
 	margin: 20px 0px;
-}
-.progress-bar {
-    height: 10px;
-    background-color: #000;
-    display: block;
-    width: 100%;
-    border-radius: 10px;
-}
-.tournaments-col  .tournamanet-slide-date span{
+  }
+  .progress-bar {
+	height: 10px;
+	background-color: #000;
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+  }
+  .tournaments-col .tournamanet-slide-date span {
 	font-size: 11px;
-}
-.tournaments-col  .tournamanet-slide-date img{
+  }
+  .tournaments-col .tournamanet-slide-date img {
 	margin: 0px 4px;
-}
-.tournaments-grid-footer{
+  }
+  .tournaments-grid-footer {
 	background-color: #292929;
 	padding: 18px;
 	border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.tournaments-grid-footer span{
+	border-bottom-left-radius: 10px;
+  }
+  .tournaments-grid-footer span {
 	font-size: 12px;
-    font-weight: 700;
-    color: #747474;
-}
-.tournaments-grid-footer h2{
+	font-weight: 700;
+	color: #747474;
+  }
+  .tournaments-grid-footer h2 {
 	font-size: 20px;
-    font-weight: 500;
-}
-.tournaments-grid-footer .coin-img{
+	font-weight: 500;
+  }
+  .tournaments-grid-footer .coin-img {
 	object-fit: contain;
-    width: 30px !important;
-    height: 30px !important;
-    margin-left: 2px;
-}
-.tournaments-col .btn-ty-2{
+	width: 30px !important;
+	height: 30px !important;
+	margin-left: 2px;
+  }
+  .tournaments-col .btn-ty-2 {
 	position: absolute;
-    right: 25px;
-    top: 20px;
+	right: 25px;
+	top: 20px;
 	padding: 5px 14px;
 	line-height: normal;
-	z-index:99;
-}
-
-/************************ footer css *************************/
-.custom-footer{
-    padding: 75px 0px;
-}
-.custom-footer p {
-    font-family: "AirbnbCereal",sans-serif!important;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 1.6;
-    letter-spacing: .16px;
-    opacity: .47;
-}
-.custom-footer img.custom-logo {
-    margin-bottom: 20px;
-}
-.footer-widget-menu ul li {
-	list-style:none;
-}
-.footer-widget-menu ul li a {
-    color: #bbbbbb;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: .21px;
-}
-.footer-widget-menu > div {
-    margin-left: 20px;
-}
-.footer-widget-menu h5 {
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .19px;
-    margin-left: 0;
-    margin-bottom: 5px;
-}
-.social-links a {
-    margin-left: 20px;
-}
-.social-links {
-    margin-bottom: 32px;
-}
-.footer-contact-col {
-    margin-top: 40px;
-}
-.sticky-btn a {
+	z-index: 99;
+  }
+  
+  /************************ footer css *************************/
+  .custom-footer {
+	padding: 75px 0px;
+  }
+  .custom-footer p {
+	font-family: "AirbnbCereal", sans-serif !important;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.6;
+	letter-spacing: 0.16px;
+	opacity: 0.47;
+  }
+  .custom-footer img.custom-logo {
+	margin-bottom: 20px;
+  }
+  .footer-widget-menu ul li {
+	list-style: none;
+  }
+  .footer-widget-menu ul li a {
+	color: #bbbbbb;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.21px;
+  }
+  .footer-widget-menu > div {
+	margin-left: 20px;
+  }
+  .footer-widget-menu h5 {
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 0.19px;
+	margin-left: 0;
+	margin-bottom: 5px;
+  }
+  .social-links a {
+	margin-left: 20px;
+  }
+  .social-links {
+	margin-bottom: 32px;
+  }
+  .footer-contact-col {
+	margin-top: 40px;
+  }
+  .sticky-btn a {
 	display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 3px;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
 	margin-bottom: 15px;
-    border-image-source: linear-gradient( 
-180deg,#1d82f3,#0053b2);
-    border-image-slice: 1;
-    background-image: linear-gradient( 
-180deg,#0078ff,#0062d0),linear-gradient( 
-180deg,#1d82f3,#0053b2);
-    background-origin: border-box;
-    background-clip: content-box,border-box;
-}
-.sticky-btn {
+	border-image-source: linear-gradient(180deg, #1d82f3, #0053b2);
+	border-image-slice: 1;
+	background-image: linear-gradient(180deg, #0078ff, #0062d0),
+	  linear-gradient(180deg, #1d82f3, #0053b2);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+  }
+  .sticky-btn {
 	position: fixed;
-    bottom: 50px;
-    left: 0;
-    z-index: 9;
-}
-/*=================================== media query css ===================================*/
-
-@media only screen and (min-width: 300px) and (max-width: 767px) {	
+	bottom: 50px;
+	left: 0;
+	z-index: 9;
+  }
+  /*=================================== media query css ===================================*/
+  
+  @media only screen and (min-width: 300px) and (max-width: 767px) {
 	.filter-in-block .flex-content {
-		display: block;
+	  display: block;
 	}
 	.filter-in-block-content {
-		margin-top: 30px;
+	  margin-top: 30px;
 	}
-	section.filter.filter-in .filter-in-block{
-		padding: 10px 0px;
+	section.filter.filter-in .filter-in-block {
+	  padding: 10px 0px;
 	}
-	h2{
-		font-size: 22px;
+	h2 {
+	  font-size: 22px;
 	}
-	.coin-img{
-		width: 30px !important;
-		height: 30px !important;
-		margin: 0px 10px;
+	.coin-img {
+	  width: 30px !important;
+	  height: 30px !important;
+	  margin: 0px 10px;
 	}
-	.tournaments-top{
-		padding-top: 50px;
-	}	
-	h1, h1 span{
-		font-size: 40px;
+	.tournaments-top {
+	  padding-top: 50px;
+	}
+	h1,
+	h1 span {
+	  font-size: 40px;
 	}
 	.page-content {
-		padding-top: 65px;
+	  padding-top: 65px;
 	}
 	.tournamanet-slide-content {
-		padding: 0px 20px;
+	  padding: 0px 20px;
 	}
-	.container{
-		padding: 0px 20px;
+	.container {
+	  padding: 0px 20px;
 	}
 	#navbar-navigation {
-		position: fixed;
-		top: 0;
-		left: 0px;
-		z-index: 99;
-		width: 100%;
-		height: 100%;
-		background-color: #000;
-		overflow: hidden;
-		right: 0px;
-	}
-	ul.nav.navbar-nav {	
-		margin: 100px 0px 0px!important;
-	}	
-	.navbar-nav-link{
-		font-size: 14px;
-	}
-	.custom-header .navbar {
-		padding: 0px 20px !important;
-	}
-	.custom-header a.navbar-nav-link, .custom-header a.invite-i, .custom-header .float-right{
-		width: 100%;
-		margin: 0 auto;
-		display: flex;
-		justify-content: center;
-		margin: 5px 0px;
-	}
-	.custom-header .float-right{
-		float: none !important;
-	}
-	.custom-header  .btn-ty-1{
-		width: 100%;
-		display: block;
-	    margin: 17px 0px !important;
-		font-size: 14px;
-		padding: 9px 45px;
-	}
-	button.navbar-toggler.collapsed.jb_front_nav_close {
-	    position: absolute;
-		right: 0px;
-		top: 0px;
-	}
-	/* .tournamanet-slide-content .owl-item.active.center .tournamanet-slide-block {
-		height: 216px;
-	} */
-	.tournamanet-slide-content .tournamanet-slide-block{
-		height: 250px !important;
-	}
-	.filter-slider {
-		margin-top: 0;
-	}
-	button.owl-prev {
-		left: -20px;
-	}
-	button.owl-next{
-		right: -20px;
-	}
-	.filter-center-menu a{
-		margin-right: 14px;
-	}
-	.filter-right{
-		display: block;
-		text-align: center;
-	}
-	.filter-right .filter-btn{
-		margin: 0 auto;
-	}
-	.btn-clear{
-		display: inline-block;
-		margin: 20px 0px;
-		line-height: normal;
-		font-size: 13px;
-	}
-	.search-container input{
-		width: 100%;
-	}
-	.tournaments-count p{
-		text-align: left;
-	}
-	.footer-widget-menu, .custom-footer {
-		text-align: center;
-	}
-	.footer-widget-menu > div {
-		margin-left: 0;
-	}
-	.footer-block {
-		margin-top: 30px;
-	}
-	.social-links{
-		justify-content: center;
-	}
-	.custom-footer {
-		padding: 40px 0px;
-	}
-	.tournamanet-slide-content .block-content{
-		position: unset;
-	}
-	.tournamanet-slide-date{		
-		padding: 10px 0px;
-	}
-	.filter-slider button.owl-next {
-		right: -20px;
-	}
-	.filter-slider button.owl-prev {
-		left: -20px;
-	}
-	.tournamanet-slide-content  .owl-nav{
-		top: 20%;
-	}
-}
-@media only screen and (min-width: 768px) and (max-width: 991px){
-	#navbar-navigation {
-		position: fixed;
-		top: 0;
-		left: 0px;
-		z-index: 99;
-		width: 100%;
-		height: 100%;
-		background-color: #000;
-		overflow: hidden;
-		right: 0px;
-	}
-	.custom-header a.navbar-nav-link, a.invite-i{
-		margin: 20px 0px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.float-right {
-		float: none !important;
+	  position: fixed;
+	  top: 0;
+	  left: 0px;
+	  z-index: 99;
+	  width: 100%;
+	  height: 100%;
+	  background-color: #000;
+	  overflow: hidden;
+	  right: 0px;
 	}
 	ul.nav.navbar-nav {
-		margin: 100px 0px 0px!important;
+	  margin: 100px 0px 0px !important;
 	}
-	.tournamanet-slide-content .owl-nav{
-		top: 20%;
+	.navbar-nav-link {
+	  font-size: 14px;
 	}
-	.footer-contact-col{
-		text-align: center;
+	.custom-header .navbar {
+	  padding: 0px 20px !important;
 	}
-	.social-links.d-flex {
-		justify-content: center;
+	.custom-header a.navbar-nav-link,
+	.custom-header a.invite-i,
+	.custom-header .float-right {
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  justify-content: center;
+	  margin: 5px 0px;
 	}
-	.filter-right{
-		width: 100%;    justify-content: center;
+	.custom-header .float-right {
+	  float: none !important;
 	}
-	.tournamanet-slide-content .block-content{
-		position: unset;		
-    padding: 0px 40px;
+	.custom-header .btn-ty-1 {
+	  width: 100%;
+	  display: block;
+	  margin: 17px 0px !important;
+	  font-size: 14px;
+	  padding: 9px 45px;
+	}
+	button.navbar-toggler.collapsed.jb_front_nav_close {
+	  position: absolute;
+	  right: 0px;
+	  top: 0px;
+	}
+	/* .tournamanet-slide-content .owl-item.active.center .tournamanet-slide-block {
+		  height: 216px;
+	  } */
+	.tournamanet-slide-content .tournamanet-slide-block {
+	  height: 250px !important;
 	}
 	.filter-slider {
-		margin-top: 0;
+	  margin-top: 0;
 	}
-	.main-menuright{
-		text-align: center;
+	button.owl-prev {
+	  left: -20px;
 	}
-}
-@media only screen and (min-width: 991px) and (max-width: 1024px){
-	.custom-header a.navbar-nav-link{
-		font-size: 15px;
-		padding: 0px 6px;
+	button.owl-next {
+	  right: -20px;
 	}
-	.btn-ty-1{
-		font-size: 15px;
-		padding: 7px 25px;
+	.filter-center-menu a {
+	  margin-right: 14px;
 	}
-	.filter-right .filter-btn{
-		margin-left: 15px;
+	.filter-right {
+	  display: block;
+	  text-align: center;
 	}
-}
-
-
+	.filter-right .filter-btn {
+	  margin: 0 auto;
+	}
+	.btn-clear {
+	  display: inline-block;
+	  margin: 20px 0px;
+	  line-height: normal;
+	  font-size: 13px;
+	}
+	.search-container input {
+	  width: 100%;
+	}
+	.tournaments-count p {
+	  text-align: left;
+	}
+	.footer-widget-menu,
+	.custom-footer {
+	  text-align: center;
+	}
+	.footer-widget-menu > div {
+	  margin-left: 0;
+	}
+	.footer-block {
+	  margin-top: 30px;
+	}
+	.social-links {
+	  justify-content: center;
+	}
+	.custom-footer {
+	  padding: 40px 0px;
+	}
+	.tournamanet-slide-content .block-content {
+	  position: unset;
+	}
+	.tournamanet-slide-date {
+	  padding: 10px 0px;
+	}
+	.filter-slider button.owl-next {
+	  right: -20px;
+	}
+	.filter-slider button.owl-prev {
+	  left: -20px;
+	}
+	.tournamanet-slide-content .owl-nav {
+	  top: 20%;
+	}
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+	#navbar-navigation {
+	  position: fixed;
+	  top: 0;
+	  left: 0px;
+	  z-index: 99;
+	  width: 100%;
+	  height: 100%;
+	  background-color: #000;
+	  overflow: hidden;
+	  right: 0px;
+	}
+	.custom-header a.navbar-nav-link,
+	a.invite-i {
+	  margin: 20px 0px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	}
+	.float-right {
+	  float: none !important;
+	}
+	ul.nav.navbar-nav {
+	  margin: 100px 0px 0px !important;
+	}
+	.tournamanet-slide-content .owl-nav {
+	  top: 20%;
+	}
+	.footer-contact-col {
+	  text-align: center;
+	}
+	.social-links.d-flex {
+	  justify-content: center;
+	}
+	.filter-right {
+	  width: 100%;
+	  justify-content: center;
+	}
+	.tournamanet-slide-content .block-content {
+	  position: unset;
+	  padding: 0px 40px;
+	}
+	.filter-slider {
+	  margin-top: 0;
+	}
+	.main-menuright {
+	  text-align: center;
+	}
+  }
+  @media only screen and (min-width: 991px) and (max-width: 1024px) {
+	.custom-header a.navbar-nav-link {
+	  font-size: 15px;
+	  padding: 0px 6px;
+	}
+	.btn-ty-1 {
+	  font-size: 15px;
+	  padding: 7px 25px;
+	}
+	.filter-right .filter-btn {
+	  margin-left: 15px;
+	}
+  }
+  
