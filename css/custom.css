@@ -131,7 +131,7 @@ button.btn-more {
 	width: -moz-fit-content;
     padding: 4px 19px;
 }
-.text-blue{
+.text-blue, .footer-widget-menu ul li a:hover{
 	color: #0078ff;
 }
 .bg-blue{
@@ -770,7 +770,10 @@ section.tournaments-grid {
 		display: block;
 	}
 	.filter-in-block-content {
-		margin-top: 50px;
+		margin-top: 30px;
+	}
+	section.filter.filter-in .filter-in-block{
+		padding: 10px 0px;
 	}
 	h2{
 		font-size: 22px;
@@ -864,7 +867,9 @@ section.tournaments-grid {
 	}
 	.btn-clear{
 		display: inline-block;
-    	margin: 20px 0px;
+		margin: 20px 0px;
+		line-height: normal;
+		font-size: 13px;
 	}
 	.search-container input{
 		width: 100%;
