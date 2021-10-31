@@ -128,6 +128,7 @@ button.btn-more {
 .filter-btn {
     background-color: #252525;
     width: fit-content;
+	width: -moz-fit-content;
     padding: 4px 19px;
 }
 .text-blue{
@@ -346,11 +347,9 @@ button.navbar-toggler i.flaticon-close-2:before {
 }
 /************* section tournaments-top *************/
 
-.tournaments-top{
-    /* background-image: linear-gradient( 
-180deg,transparent,var(--themeBg2)),url(https://gamerzarena.com/static/media/bgImg.6f533187.webp); */
+.tournaments-top{   
     padding-top: 90px;
-	background: url(../images/banner-img.jpg) no-repeat !important;
+	background: url(../images/banner-img.jpg) !important;
 }
 .tournamanet-slide-content .owl-item > div {
 	cursor: pointer;
@@ -423,6 +422,7 @@ button.navbar-toggler i.flaticon-close-2:before {
 .tournamanet-slide-date{
 	background-color: rgba(0,0,0,.65);
     width: fit-content;
+	width: -moz-fit-content;
     padding: 10px 30px;
     border-radius: 5px;
 }
